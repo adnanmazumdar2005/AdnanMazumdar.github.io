@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+/* EVERYTHING SELECTOR */
+* {
+    color: #777;
+    font-family: cabin;
+}
+
+
+/* BODY */
+html,
+body {
+    background-color: rgb(141, 189, 228);
+    margin: 0px;
+    padding: 0px;
+}
+
+/* CLASSES */
+
+.textbox {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 0px;
+    padding-bottom: 1px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+/* FLEXBOX CSS */
+.flex_container {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.flex_item {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+/* HEADER */
+header {
+    background-image: url(Images/homepage_title_backgroud2.jpeg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: top;
+}
+
+.title {
+    text-align: center;
+    font-family: "cabin";
+    color: rgb(58, 99, 188);
+    margin-bottom: 0px;
+    padding-top: 15px;
+    padding-bottom: 8px;
+}
+
+@media screen and (max-width: 380px) {
+    .title {
+        padding-top: 35px;
+    }
+}
+
+@media screen and (max-width: 255spx) {
+    .title {
+        padding-top: 60px;
+    }
+}
+
+
+/* STYLE RULES FOR CONTENT INSIDE HEADER */
+
+/* Navigation Bar Style Rules */
+nav {
+    position: fixed;
+    top: 0;
+    background-color: rgba(62, 60, 57, 0.8);
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    z-index: 1000;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 3px;
+    background-color: none;
+}
+
+nav li a {
+    color: #E0E0E0;
+    font-weight: bold;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+    nav li a {
+        font-size: 20;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    nav li a {
+        font-size: 18;
+    }
+}
+
+/* @media screen and (max-width: 400px) {
+    nav li a {
+        font-size: 18;
+    }
+} */
+
+nav li a:hover {
+    /* background-color: rgb(58, 99, 188); */
+    color: rgb(58, 99, 188);
+}
+
+/* SECTION */
+section {
+    background: #F8F9FA;
+}
+
+/* STYLE RULES FOR CONTENT INSIDE SECTION TAG  */
+section div {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Make font smaller for smaller screen */
+.heading {
+    /* color: rgb(58, 99, 188); */
+    color: #FFB800;
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 330px) {
+    .heading {
+        font-size: 28;
+    }
+}
+
+/* Make font smaller for smaller screen */
+section p {
+    color: #F8F9FA;
+    font-family: cabin;
+    font-size: x-large;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 330px) {
+    section p {
+        font-size: 20;
+        margin-top: 0px;
+    }
+}
+
+
+p.left {
+    text-align: left;
+}
+
+div.personal_details {
+    background-image: url(Images/UTS_library.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div.personal_details img {
+    border: 1px solid rgb(69, 67, 67);
+    border-radius: 10px;
+    width: 200px;
+}
+
+@media screen and (max-width: 330px) {
+    div.personal_details img {
+        width: 180px;
+    }
+}
+
+div.jeddah {
+    background-image: url(Images/Jeddah_image1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div.assam {
+    background-image: url(Images/Assam_tea_garden.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* min-height: 200px; */
+}
+
+/* div.assam h2,
+div.assam p {
+    justify-content: center;
+} */
+
+div.hobby {
+    background-image: url(Images/chess.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+/* FOOTER */
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+/* STYLE RULES FOR CONTENT INSIDE FOOTER */

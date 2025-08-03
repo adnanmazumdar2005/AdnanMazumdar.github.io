@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=RocknRoll+One&family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRol+One&family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* BODY */
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* CLASSES */
+
+.textbox {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    padding-bottom: 1px;
+    padding-top: 0px;
+}
+
+.textbox.main {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-right: 10px;
+    max-width: none;
+}
+
+/* FLEXBOX CSS */
+.flex_container {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.flex_item {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/* HEADER */
+header {
+    background-image: url(Images/tokyo_image2.jpeg);
+    background-size: cover;
+    background-position: top;
+    padding-bottom: 10px;
+}
+
+
+
+div.tokyo {
+    margin: 0px;
+    padding: 0;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Bebas Neue';
+    font-size: xxx-large;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+@media screen and (max-width: 428px) {
+    .title {
+        padding-top: 50;
+        font-size: 45px;
+    }
+}
+
+.title_2 {
+    text-align: center;
+    font-family: 'Bebas Neue';
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+@media screen and (max-width: 460px) {
+    .title_2 {
+        font-size: 40px;
+    }
+}
+
+.heading_main {
+    color: rgb(230, 0, 18);
+    font-family: "Zen Tokyo Zoo";
+    font-weight: 550;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* STYLE RULES FOR CONTENT INSIDE HEADER */
+
+/* Navigation Bar Style Rules */
+nav {
+    position: fixed;
+    top: 0;
+    background-color: rgba(33, 31, 31, 0.8);
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    z-index: 1000;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 3px;
+    background-color: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #E0E0E0;
+    font-family: "Zen Tokyo Zoo";
+
+    font-size: x-large;
+    font-weight: lighter;
+}
+
+nav li a:hover {
+    color: rgb(230, 0, 18);
+}
+
+/* SECTION */
+section {
+    background: #FAF9F6;
+}
+
+/* STYLE RULES FOR CONTENT INSIDE SECTION TAG  */
+section div {
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* Make font smaller for smaller screen */
+
+
+
+.heading {
+    color: rgb(230, 0, 19);
+    font-family: "Zen Tokyo Zoo";
+    font-weight: 300;
+    text-align: center;
+    font-size: x-large;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 460px) {
+    .heading {
+        font-size: 23;
+    }
+}
+
+/* Make font smaller for smaller screen */
+p {
+    color: #F8F9FA;
+    font-family: "Roboto";
+    text-align: center;
+    font-size: large;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 460px) {
+    p {
+        font-size: 17;
+    }
+}
+
+
+div.tokyo_tower img {
+    padding-top: 30px;
+    width: 350px;
+}
+
+@media screen and (max-width: 460px) {
+    div.tokyo_tower img {
+        width: 250px;
+    }
+}
+
+div.tokyo_tower {
+    background-image: url(Images/tokyo_tower_background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+div.tokyo_sky_tree img {
+    padding-top: 30px;
+    width: 450px;
+}
+
+@media screen and (max-width: 460px) {
+    div.tokyo_sky_tree img {
+        width: 300px;
+    }
+}
+
+div.tokyo_sky_tree {
+    background-image: url(Images/tokyo_skytree_background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+div.shibuya_sky img {
+    padding-top: 30px;
+    width: 450px;
+}
+
+@media screen and (max-width: 460px) {
+    div.shibuya_sky img {
+        width: 300px;
+    }
+}
+
+div.shibuya_sky {
+    background-image: url(Images/shibuya_sky_background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+div.teamlabs_borderless img {
+    padding-top: 30px;
+    width: 450px;
+}
+
+@media screen and (max-width: 460px) {
+    div.teamlabs_borderless img {
+        width: 300px;
+    }
+}
+
+div.teamlabs_borderless {
+    background-image: url(Images/teamlabs_borderless_background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+div.fuji img {
+    padding-top: 30px;
+    width: 450px;
+}
+
+@media screen and (max-width: 460px) {
+    div.fuji img {
+        width: 300px;
+    }
+}
+
+div.fuji {
+    background-image: url(Images/mount_fuji_background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
